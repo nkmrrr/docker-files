@@ -8,13 +8,13 @@ RUN apt-get update
 RUN apt-get -y install pkg-config
 RUN apt-get -y install build-essential libtool
 RUN apt-get -y install autoconf automake
-Run apt-get -y install wget curl
+RUN apt-get -y install wget curl
 RUN apt-get -y install git-core subversion
 
 #Install Required Dependencies
-Run apt-get -y install openssl libssl-dev
+RUN apt-get -y install openssl libssl-dev
 RUN apt-get -y install libxml2-dev libncurses5-dev
-Run apt-get -y install uuid uuid-dev
+RUN apt-get -y install uuid uuid-dev
 RUN apt-get -y install libjansson4 libjansson-dev
 RUN apt-get -y install sqlite3 libsqlite3-dev
 RUN apt-get -y install speex libspeex-dev libogg-dev
